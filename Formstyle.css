@@ -1,0 +1,60 @@
+.form-container {
+  color: rgb(28, 167, 167);
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  width: 400px;
+  margin: 40px auto; /* центрирует по горизонтали */
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #119292;
+  background-color: #222;
+  color: rgb(28, 167, 167);
+}
+
+.form button1 {
+  background-color: #119292;
+  color: rgb(28, 167, 167);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form button4:hover {
+  background-color: #0e7b7b;
+}
+.pip {
+  color: #119292;
+  background-color: #444949;
+  width: 99%;
+  border-radius: 5px;
+  padding: 4px;
+  ;
+}
+.pip:hover{
+  color: rgb(58, 66, 66);
+  background-color: #3d464600;
+}
+.formbutton{
+  background-color:  #181d1c;
+  color: #119292;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 103%;
+}

@@ -1,0 +1,101 @@
+body{
+    background-color:  #1ec0b0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(38, 107, 107);
+}
+.button1 {
+    color: rgb(12, 156, 158);
+    background-color: #222; /* чуть светлее, чем фон */
+    border: 1px solid rgb(12, 156, 158);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%
+}
+button {
+    color: rgb(12, 156, 158);
+    background-color: #222; /* чуть светлее, чем фон */
+    border: 1px solid rgb(12, 156, 158);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 20%
+    
+    
+}
+
+.header{
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    border: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  hsl(150, 3%, 15%);
+    padding: 15px px
+}
+.name {
+    display: flex;
+    color: rgb(28, 167, 167);
+    margin-left: 20px;
+ 
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    color: #00000000;
+    background-color: #131718;
+}
+.register {
+  display: flex;
+  flex-direction: column;   /* кнопки одна под другой */
+  gap: 10px;
+  margin-right: 20px;       /* отступ справа */
+  width: 1000px;
+  margin-left: 3px;
+  margin-top: 10px;
+
+}
+
+
+
+
+.register1{
+    display: flex;
+    flex-direction: column;
+    color:  #182922;
+    background-color:  #181d1c;
+    width: 206px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+
+}
+button:hover{
+    color: #119292;
+    background-color: #11929234;
+    transform: scale(1.1);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    
+}
+button1:hover{
+    color: #119292;
+    background-color: #11929234;
+    transform: scale(1.1);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    
+}
+
+.main {
+  display: flex;
+  justify-content: center; /* центр по горизонтали */
+  align-items: center;     /* центр по вертикали */
+  flex: 1;
+  height: 100%;
+}
