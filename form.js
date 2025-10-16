@@ -28,10 +28,10 @@ function openpage(page) {
       <div class="gallery">
         <h2>Галерея</h2>
         <div class="images">
-          <img src="../materials/picture1.jpg" alt="Фото 1">
-          <img src="../materials/picture2.jpg" alt="Фото 1">
-          <img src="../materials/picture3.jpg" alt="Фото 1">
-          <img src="../materials/picture4.jpg" alt="Фото 1">
+          <img src="picture1.jpg" alt="Фото 1">
+          <img src="picture2.jpg" alt="Фото 1">
+          <img src="picture3.jpg" alt="Фото 1">
+          <img src="picture4.jpg" alt="Фото 1">
 
         </div>
       </div>
@@ -41,7 +41,7 @@ function openpage(page) {
     main.innerHTML = `
       <div class="video">
         <video 
-            src="../materials/video.mp4" 
+            src="video.mp4" 
             width="800" 
             height="500" 
             controls 
@@ -103,4 +103,5 @@ function calculateGrades(event) {
   document.getElementById('result').textContent = `Итоговая оценка: ${final.toFixed(2)} / 100`;
   return false;
 }
+
 
