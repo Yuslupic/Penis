@@ -11,6 +11,7 @@ body{
     background-color: rgb(38, 107, 107);
 }
 .button1 {
+    margin-left: -5px;
     color: rgb(12, 156, 158);
     background-color: #222; /* чуть светлее, чем фон */
     border: 1px solid rgb(12, 156, 158);
@@ -99,3 +100,4 @@ button1:hover{
   flex: 1;
   height: 100%;
 }
+
